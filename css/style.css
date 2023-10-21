@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: url(../img/mers.png) no-repeat;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.rent {
+   min-width: 250px;
+   padding-top: 60px;
+   margin-right: 100px;
+}
+
+.rent__title {
+    font-size: 70px;
+    font-weight: 400;
+    
+    
+}
+
+.rent__subtitle {
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 18px;
+}
+
+.list { 
+    font-size: 25px;
+    padding-top: 17px;
+    flex-direction: 15px;
+    line-height: 54px;
+}
+
+.item {}
+
+.category {
+    background-color: rgba(29, 83, 27, 0.78);
+    margin-top: 170px;
+    width: 540px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 23px;
+    padding-bottom: 130px;
+}
+
+.category__title{
+font-size: 25px;
+font-weight: 400;
+padding-bottom: 23px;
+}
+
+
+.category__text {
+    display: inline-block;
+    color: rgb(79, 79, 79);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-bottom: 23px;
+    
+}
+
+.category__text__right {
+    position: absolute;
+    right: 1005px;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 18px; 
+}
+
+.category__form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+}
+
+.btn {
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: rgba(57, 127, 54, 0.748);
+    padding: 10px;
+    width: 450px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    position: absolute;
+    left: 1090px;
+    margin-top: 23px;
+}
